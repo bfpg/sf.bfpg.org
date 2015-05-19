@@ -204,6 +204,24 @@ cd software-foundations/sf
 proofgeneral Basics.v
 ```
 
+## Docker
+
+A [Docker][] image has been prepared for the workshop.  It contains
+Coq, Proof General and the Software Foundations sources, and
+launches straight into `Basics.v` when run.
+
+```
+docker pull frasertweedale/sf
+docker run --name sf -it frasertweedale/sf
+```
+
+For more information about using the Docker image refer to its
+[documentation][image-documentation].
+
+[Docker]: https://www.docker.com/
+[image-documentation]: https://registry.hub.docker.com/u/frasertweedale/sf/
+
+
 # Working with Emacs and Proof General
 
 There is an [Emacs reference card][emacs-ref-card]. The *Getting Help* section
