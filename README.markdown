@@ -3,7 +3,7 @@
 [Software Foundations][SF] is a course developed by Benjamin C Pierce and
 others, and made freely available. It teaches:
 
-[SF]: http://www.seas.upenn.edu/~bcpierce/sf/current/index.html
+[SF]: http://bfpg.org/src/software-foundations/sf/
 
 - Mechanised theorem proving using [Coq][].
 - A broad introduction to Programming Language Theory, completely formalised in
@@ -15,12 +15,12 @@ This site augments the [System Requirements][SysReq] section of the course,
 with links to all the tools you need, and some simple instructions, so you can
 get into the interesting stuff quickly.
 
-[SysReq]: http://www.seas.upenn.edu/~bcpierce/sf/current/Preface.html#lab10
+[SysReq]: http://bfpg.org/src/software-foundations/sf/Preface.html#lab10
 
 You should go read the course [Preface][] now, and then come back here to set
 up the tools you'll need.
 
-[Preface]: http://www.cis.upenn.edu/~bcpierce/sf/current/Preface.html
+[Preface]: http://bfpg.org/src/software-foundations/sf/Preface.html
 
 This site was made by members of the [Brisbane Functional Programming
 Group][BFPG], for a [workshop][] at [YOW! Lambda Jam 2015][YLJ15]. We hope to
@@ -37,7 +37,7 @@ straight on to the [platform-specific recommendations][recommendations]. Come
 back here if we don't cover your platform, or if you want to better understand
 what you're installing.
 
-[recommendations]: #user-content-platform-specific-recommendations
+[recommendations]: #platform-specific-recommendations
 
 To follow the course, you will need:
 
@@ -98,13 +98,13 @@ To follow the course, you will need:
 [Coquille]: https://github.com/the-lambda-church/coquille
 [vim-pathogen]: https://github.com/tpope/vim-pathogen
 [Vim]: http://www.vim.org/
-[sf-tarball]: http://www.seas.upenn.edu/~bcpierce/sf/current/sf.tar.gz
+[sf-tarball]: http://bfpg.org/src/software-foundations.zip
 [sf-mirror]: https://github.com/bfpg/software-foundations
-[coq-doc]: https://coq.inria.fr/documentation
-[coq-tactics]: https://coq.inria.fr/distrib/current/refman/Reference-Manual010.html
-[coq-ref]: https://coq.inria.fr/distrib/current/refman/
-[coq-lib]: https://coq.inria.fr/distrib/current/stdlib/
-[coq-src]: https://github.com/coq/coq/tree/trunk/theories
+[coq-doc]: http://bfpg.org/doc/coq/
+[coq-tactics]: http://bfpg.org/doc/coq/refman/html/Reference-Manual010.html
+[coq-ref]: http://bfpg.org/doc/coq/refman/html/toc.html
+[coq-lib]: http://bfpg.org/doc/coq/stdlib/html/
+[coq-src]: http://bfpg.org/src/coq-8.4pl6/theories/
 
 ### Making the tools work together
 
@@ -141,9 +141,9 @@ For Mac OS X, we provide a bundle that contains everything you need.
 - [sf-mac-2015-05-18.dmg.sha256sum][sf-mac-sum]
 - [sf-mac-2015-05-18.dmg.sig][sf-mac-sig]
 
-[sf-mac]: http://sf.bfpg.org/files/sf-mac-2015-05-18.dmg
-[sf-mac-sum]: http://sf.bfpg.org/files/sf-mac-2015-05-18.dmg.sha256sum
-[sf-mac-sig]: http://sf.bfpg.org/files/sf-mac-2015-05-18.dmg.sig
+[sf-mac]: http://bfpg.org/files/sf-mac-2015-05-18.dmg
+[sf-mac-sum]: http://bfpg.org/files/sf-mac-2015-05-18.dmg.sha256sum
+[sf-mac-sig]: http://bfpg.org/files/sf-mac-2015-05-18.dmg.sig
 
 Unpack the DMG, then run the `emacs` script in the top directory. This will
 open Emacs with Proof General on the first chapter of Software Foundations.
@@ -156,7 +156,7 @@ tools work together, and adapt them to your purpose.
 You should now read below to learn the basics of [driving Proof
 General][usage].
 
-[usage]: #user-content-working-with-emacs-and-proof-general
+[usage]: #working-with-emacs-and-proof-general
 
 ## Microsoft Windows
 
@@ -166,9 +166,9 @@ For Windows, we provide a bundle that contains everything you need.
 - [sf-windows-2015-05-03.zip.sha256sum][sf-windows-sum]
 - [sf-windows-2015-05-03.zip.sig][sf-windows-sig]
 
-[sf-windows]: http://sf.bfpg.org/files/sf-windows-2015-05-03.zip
-[sf-windows-sum]: http://sf.bfpg.org/files/sf-windows-2015-05-03.zip.sha256sum
-[sf-windows-sig]: http://sf.bfpg.org/files/sf-windows-2015-05-03.zip.sig
+[sf-windows]: http://bfpg.org/files/sf-windows-2015-05-03.zip
+[sf-windows-sum]: http://bfpg.org/files/sf-windows-2015-05-03.zip.sha256sum
+[sf-windows-sig]: http://bfpg.org/files/sf-windows-2015-05-03.zip.sig
 
 Unpack the ZIP, then run `emacs.bat` in the top directory. This will open Emacs
 with Proof General on the first chapter of Software Foundations. When you
@@ -209,12 +209,12 @@ proofgeneral Basics.v
 There is an [Emacs reference card][emacs-ref-card]. The *Getting Help* section
 might be especially useful. There is also a [reference manual][emacs-ref].
 
-[emacs-ref-card]: http://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
-[emacs-ref]: http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
+[emacs-ref-card]: http://sf.bfpg.org/src/emacs-24.5/etc/refcards/refcard.pdf
+[emacs-ref]: http://sf.bfpg.org/doc/emacs/
 
 Proof General has a [reference manual][pg-ref]. You'll mainly be interested in
 the [script processing commands][pg-script].
 
-[pg-ref]: http://proofgeneral.inf.ed.ac.uk/userman
-[pg-script]: http://proofgeneral.inf.ed.ac.uk/htmlshow.php?title=Proof+General+user+manual&file=releases%2FProofGeneral%2Fdoc%2FProofGeneral%2FProofGeneral_3.html#Script-processing-commands
+[pg-ref]: http://sf.bfpg.org/doc/ProofGeneral/ProofGeneral.html
+[pg-script]: http://sf.bfpg.org/doc/ProofGeneral/ProofGeneral_3.html#Script-processing-commands
 
