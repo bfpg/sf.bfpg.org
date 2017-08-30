@@ -126,24 +126,20 @@ from the Proof General distribution, by one of the following methods:
 
 These are our recommendations for some common platforms.
 
-We documented [how we built the bundles][sf-tools] for Mac and Windows. Bundles
-are signed by [Matthew Brecknell][mbrcknl], who takes all reasonable care, but
-no responsibility.
+We previously provided bundles for Mac and Windows, but have since removed them
+since they had become rather dated. The documentation for [how we originally
+built the bundles][sf-tools] is still available.
 
 [sf-tools]: https://github.com/bfpg/software-foundations-tools
-[mbrcknl]: https://keybase.io/mbrcknl
 
 ## Mac OS X
 
-For Mac OS X, we provide a bundle that contains everything you need.
+For Mac OS X, we previously provided a bundle that contained everything you
+needed. You would now need to [build your own][sf-tools].
 
-- [sf-mac-2015-05-18.dmg][sf-mac]
-- [sf-mac-2015-05-18.dmg.sha256sum][sf-mac-sum]
-- [sf-mac-2015-05-18.dmg.sig][sf-mac-sig]
-
-[sf-mac]: http://sf.bfpg.org/files/sf-mac-2015-05-18.dmg
-[sf-mac-sum]: http://sf.bfpg.org/files/sf-mac-2015-05-18.dmg.sha256sum
-[sf-mac-sig]: http://sf.bfpg.org/files/sf-mac-2015-05-18.dmg.sig
+- sf-mac-2015-05-18.dmg
+- sf-mac-2015-05-18.dmg.sha256sum
+- sf-mac-2015-05-18.dmg.sig
 
 Unpack the DMG, then run the `emacs` script in the top directory. This will
 open Emacs with Proof General on the first chapter of Software Foundations.
@@ -160,15 +156,12 @@ General][usage].
 
 ## Microsoft Windows
 
-For Windows, we provide a bundle that contains everything you need.
+For Windows, we previously provided a bundle that contained everything you
+needed. You would now need to [build your own][sf-tools].
 
-- [sf-windows-2015-05-03.zip][sf-windows]
-- [sf-windows-2015-05-03.zip.sha256sum][sf-windows-sum]
-- [sf-windows-2015-05-03.zip.sig][sf-windows-sig]
-
-[sf-windows]: http://sf.bfpg.org/files/sf-windows-2015-05-03.zip
-[sf-windows-sum]: http://sf.bfpg.org/files/sf-windows-2015-05-03.zip.sha256sum
-[sf-windows-sig]: http://sf.bfpg.org/files/sf-windows-2015-05-03.zip.sig
+- sf-windows-2015-05-03.zip
+- sf-windows-2015-05-03.zip.sha256sum
+- sf-windows-2015-05-03.zip.sig
 
 Unpack the ZIP, then run `emacs.bat` in the top directory. This will open Emacs
 with Proof General on the first chapter of Software Foundations. When you
